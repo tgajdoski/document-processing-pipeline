@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Processor Pipeline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+
+    pre {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 5px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input[type="file"] {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Upload Document for Processing</h1>
+  <input type="file" id="documentUpload" accept="image/*,application/pdf">
+  <button id="processButton">Process Document</button>
+  <hr>
+  <h2>Processing Output:</h2>
+  <pre id="output"></pre>
+
+  <script src="/bundle.js"></script>
+</body>
+
+</html>
