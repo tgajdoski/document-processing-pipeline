@@ -1,7 +1,7 @@
 {
   "name": "document-processing-pipeline",
   "version": "1.0.0",
-  "description": "Indicium interview test - Document processing pipeline with LLM/MCP concept",
+  "description": "Document processing pipeline with LLM/MCP concept",
   "main": "dist/server/server.js",
   "scripts": {
     "start": "npm run build && node dist/server/server.js",
